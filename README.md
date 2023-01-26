@@ -1,3 +1,5 @@
+## Python Assignment from Citadel Modules
+
 #### Assignment 1: Write a python script which will be able to accept the data on command line as input and will be able to identify and print out the datatype of the given input.
 
 #### Solution:
@@ -46,7 +48,7 @@ for i in range(101):
     a=b
     b=c
   else:
-      break
+    break
 ```
 
 #### Assignment 3: Traversing through below list of digits, filter out the numbers which are divisible by 5. list = [12, 15, 32, 42, 55, 75, 122, 132, 150, 180, 200]
@@ -66,7 +68,7 @@ import sys
 x=''
 for line in sys.stdin:
   if 'quit' not in line:    
-    x= x + line
+      x= x + line
   else:
       x=x+line.replace("quit", "")
       break
